@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+  <title>OpenAI Quickstart</title>
+  <link
+    rel="shortcut icon"
+    href="{{ url_for('static', filename='lawyer.png') }}"
+  />
+  <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}" />
+</head>
+<body>
+  <img src="{{ url_for('static', filename='lawyer.png') }}" class="icon" />
+  <h3>Hi, my name is Bob. How may I assist you today?</h3>
+  <form action="/" method="post">
+    <input type="text" id="input_field" name="issue" placeholder="How may I assist you?" required />
+    <input type="submit" value="Ask" />
+  </form>
+  <div id="response_container">
+    {% if result %}
+      <div class="response">
+        <p class="user_input">User: {{ user_input }}</p>
+        {% for line in result.splitlines() %}
+          <p class="bot_response">Bob: {{ line }}</p>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</body>
+<script>
+  const inputField = document.querySelector("#input_field");
+  const responseContainer = document.querySelector("#response_container");
+
+  inputField.addEventListener("submit", e => {
+    e.preventDefault();
+    const userInput = inputField.value;
+
+    const newResponse = document.createElement("div");
+    newResponse.classList.add("response");
+
+    const userInputEl = document.createElement("p");
+    userInputEl.classList.add("user_input");
+    userInputEl.innerText = "User: " + userInput;
+    newResponse.appendChild(userInputEl);
+
+    const botResponseEl = document.createElement("p");
+    botResponseEl.classList.add("bot_response");
+    botResponseEl.innerText = "Bob: Loading...";
+    newResponse.appendChild(botResponseEl);
+
+    responseContainer.appendChild(newResponse);
+
+    inputField.value = "";
+
+    // Add your code to send the user's input to your backend and fetch the response here
+    // Once you have the response, update the inner text of the botResponseEl element with it
+  });
+</script>
+</html>

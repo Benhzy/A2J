@@ -1,0 +1,54 @@
+Divorce
+
+Divorce application 
+
+Q: Do the parties wanting to divorce meet the requirements for divorce?
+A: Yes / No
+
+Q: Have the parties discussed and agreed on the divorce and all ancillary matters?
+A: Yes / No
+
+If yes (Simplified track):
+Q: Have the parties filed the necessary documents for divorce on a simplified track.
+A: Yes / No
+
+Q: Have you attended the divorce hearing?
+A: Yes / No
+
+Q: Have the parties extracted the Interim Judgment.
+A: Yes / No
+
+Q: Have the parties extracted the Certificate of Final Judgment 3 months after the Interim Judgment?
+
+
+If no (Normal track):
+Q: Do the parties agree on the divorce only and not all ancillary matters? 
+A: Yes / No
+
+If yes:
+Q: Have the parties filed the necessary documents indicating their intention for the court to hear their divorce case.
+A: Yes / No
+
+If no:
+Q: Have the parties filed the necessary documents indicating their intention for the court to hear their disputed ancillary matters only?
+A: Yes / No
+
+Q: Has the divorce case not been set down within 6 weeks?
+A: Yes / No
+
+Q: Have you attended the divorce hearing?
+A: Yes / No
+
+Q: Have the parties extracted the Interim Judgment.
+A: Yes / No 
+
+Q: Do the parties wish to attend mediation and counselling?
+A: Yes / No
+
+Q: Was there a resolution on the disputed matters after mediation and counselling?
+A: Yes / No
+
+If no:
+Q: Have the parties attended an ancillary matters case conference?
+A: Yes / No
+

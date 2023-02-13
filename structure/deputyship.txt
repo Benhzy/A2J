@@ -1,0 +1,41 @@
+Deputyship
+
+Q: Do you accept and understand the responsibilities of a deputy?
+A: Yes / No
+
+Q: Do all relevant persons to the patient consent to the application?
+A: Yes / No
+
+If yes (Simplified Process):
+Q: Have you prepared all the relevant documents for the simplified deputyship application?
+A: Yes / No
+
+Q: Have you asked the relevant persons to indicate their consent?
+A: Yes / No
+
+Q: Have you paid the filing fee and filed the application?
+A: Yes / No
+
+
+If no (Standard Process):
+Q: Have you prepared all the relevant documents for the Standard deputyship application?
+A: Yes / No
+
+Q: Have you paid the filing fee and filed the application?
+A: Yes / No
+
+Q: Have you collected the endorsed documents?
+A: Yes / No
+
+Q: Have you served the application on the relevant persons?
+A: Yes / No
+
+Q: Has the court requested for you to attend a case conference or hearing?
+A: Yes / No
+
+Q: Has the court made a decision?
+A: Yes / No
+
+Q: Do you wish to contest the decision?
+A: Yes / No
+
