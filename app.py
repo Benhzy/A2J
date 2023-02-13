@@ -12,7 +12,7 @@ openai.api_key = os.getenv("API_KEY")
 
 
 def index():
-    categories = ["divorce", "adoption"]
+    categories = ["divorce", "adoption","deputyship", "guardianship", "maintenance" ]
     if request.method == "POST":
         issue = request.form["issue"]
         relevant_db = categorize_issue(issue, categories)
