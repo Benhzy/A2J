@@ -1,0 +1,366 @@
+
+
+sso_mental-capacity act https://sso.agc.gov.sg/Act/MCA2008Mental Capacity Act 20082020 REVISED EDITIONThis revised edition incorporates all amendments up to and including 1 December 2021 and comes into operation on 31 December 2021An Act to make new provision relating to persons who lack capacity and to provide for matters connected therewith.[1 March 2010:  Except sections 13(9) and 26(l) ]PART 1PRELIMINARYShort title1.  This Act is the Mental Capacity Act 2008.Interpretation2.—(1)  In this Act, unless the context otherwise requires —“appropriate consent” has the meaning given by the Human Biomedical Research Act 2015;“clinical trial” means a clinical trial within the meaning of the Medicines Act 1975 or the Health Products Act 2007;“court” means the General Division of the High Court or a Family Court;“deputy” means a person appointed by the court under section 20(2)(b) to make decisions on behalf of another person (“P”) in relation to a matter or matters concerning all or any of the following in respect of which P lacks capacity:(a)P’s personal welfare;(b)P’s property and affairs;[Act 16 of 2021 wef 14/11/2022]“donee” means a person who is conferred authority by a donor (“P”) under a lasting power of attorney to make decisions about all or any of the following when P no longer has capacity to make such decisions:(a)P’s personal welfare, or matters concerning P’s personal welfare that are specified in the lasting power of attorney;(b)P’s property and affairs, or matters concerning P’s property and affairs that are specified in the lasting power of attorney;[Act 16 of 2021 wef 14/11/2022]“donor” means a person (“P”) who confers authority on a donee (or donees) under a lasting power of attorney to make decisions about all or any of the following when P no longer has capacity to make those decisions:(a)P’s personal welfare, or matters concerning P’s personal welfare that are specified in the lasting power of attorney;(b)P’s property and affairs, or matters concerning P’s property and affairs that are specified in the lasting power of attorney;[Act 16 of 2021 wef 14/11/2022]“electronic”, “electronic record”, “record”, “secure electronic signature”, “signed” and “signature” have the meanings given by section 2(1) of the Electronic Transactions Act 2010*;[Act 16 of 2021 wef 14/11/2022]“electronic instrument” means an electronic record that confers authority of the kind mentioned in section 11(1);[Act 16 of 2021 wef 14/11/2022]“electronic transaction system” means the electronic transaction system established by the Public Guardian under section 10B(1);[Act 16 of 2021 wef 14/11/2022]“lasting power of attorney” has the meaning given by section 11;“life-sustaining treatment”, in relation to a person, means treatment which, in the view of another person providing health care for that person, is necessary to sustain life;“non-electronic lasting power of attorney” means a lasting power of attorney that is created using non-electronic means;[Act 16 of 2021 wef 14/11/2022]“professional deputy” means a person —(a)who offers or provides the services of a deputy for remuneration; and(b)who is registered with the Public Guardian as a professional deputy;“professional donee” means a person —(a)who is a professional deputy or is within a class of persons prescribed as qualified to be a professional donee; and(b)who offers or provides the services of a donee for remuneration;“property” includes any thing in action and any interest in real or personal property;“Public Guardian” means the Public Guardian appointed under section 30(1) and, unless the context otherwise requires, includes any Assistant Public Guardian appointed under section 30(1A);“registered medical practitioner” means any person who is registered as a medical practitioner under the Medical Registration Act 1997;“treatment” includes a diagnostic or other procedure;“will” includes codicil.[*Updated to be consistent with the 2020 Revised Edition][27/2014; 29/2015; 10/2016; 40/2019](2)  In this Act, references to making decisions, in relation to a one of a lasting power of attorney or a deputy appointed by the court, include, where appropriate, acting on decisions made.(3)  For the purposes of this Act, a reference to an instrument that confers authority of the kind mentioned in section 11(1) includes an electronic instrument made in accordance with section 11(2)(b)(ii).[Act 16 of 2021 wef 14/11/2022]
+
+msf_lpa-intro https://www.msf.gov.sg/opg/Pages/The-LPA-The-Lasting-Power-of-Attorney.aspx
+
+
+Page Content​​​​​​​​​
+
+
+
+
+
+
+What Is A Lasting Power of Attorney (LPA)
+
+The LPA is a legal document which allows a person who is at least 21 years of age ('Donor'), to voluntarily appoint one or more persons ('Donee(s)') to make decisions and act on his/her behalf if he/she loses mental capacity one day. A Donee can be appointed to act in the two broad areas of 
+   
+personal welfare and property & affairs matters.​
+
+Infographic summary on How to Make an LPA
+
+Benefits of an LPA
+
+Enables a person to 
+      make a personal, considered choice of a trusted proxy decision maker, who is reliable and competent to act in his/her best interests should he/she lose mental capacity one day.
+Alleviates the stress and difficulties faced by loved ones who need to apply for a Deputyship order, if the person loses mental capacity without an LPA in place.
+
+
+
+
+You are also encouraged to make an Advance Care Plan (ACP), and appoint your Donee as your Nominated Healthcare Spokesperson. More information on ACP can be found 
+   here.
+
+Convenience and Cost of Making an LPA
+
+OPG has extended the LPA Form 1 application fee waiver for Singapore Citizens to 
+   31 March 2023, to encourage more Singaporeans to plan ahead and apply for an LPA. 
+    
+Click 
+   
+here for the LPA Application Fee Table. Please note that no refund will be given once the LPA application is submitted to OPG regardless of the application outcome, including rejection. 
+
+Applicants are required to pay a professional fee to engage an LPA Certificate Issuer to witness and certify their LPA. View the list of most visited LPA Certificate Issuers ​here. 
+
+What is the difference between an LPA Form 1 and LPA Form 2?
+
+LPA Form 1: For Donors who wish to grant Donee(s) general powers with basic restrictions. 
+LPA Form 2: For Donors who wish to grant Donee(s) customised powers. The clauses in the LPA Form 2 have to be drafted by a lawyer*.
+
+
+
+
+98% of Singapore Citizens who have made an LPA used the LPA Form 1.
+
+
+
+
+*This refers to a Singapore solicitor qualified to practise Singapore law in a Singapore law practice.​​​​
+
+Access OPGO ​here to make your LPA.  
+
+You may submit a 
+      hardcopy LPA only under the 
+      exception situations​ listed in Section 11(2a) of the MCA. The acceptance of any hardcopy LPA is subject to the Public Guardian’s approval.​ Should you require further assistance on making an LPA online via OPGO, please approach your Donee(s) or family members for help. Alternatively, you may direct your enquiry to the OPG hotline at 1800-111-2222, or visit any Citizen Connect Centre or ServiceSG centre. The list of Citizen Connect Centres and ServiceSG centres can be found 
+ 
+   here. For enquiries on all other transactions using OPGO, please contact OPG hotline.
+​Last Updated: 14 Nov 2022 ​​​​​
+
+
+
+
+
+
+
+msf_lpa-cert-issuer https://www.msf.gov.sg/opg/Pages/The-LPA-Where-to-find-a-Certificate-Issuer.aspx
+
+
+Page Content​​
+
+
+
+
+
+
+​Where to Find a Certificate Issuer
+When completing your LPA, the LPA Form will have to be witnessed and certified by an LPA certificate issuer. Any one of the following professionals in Singapore can be the certificate issuer for your LPA:     A) a medical practitioner accredited by the Public Guardian;     B) a 
+   practising lawyer*; or 
+        C) a registered psychiatrist
+
+
+Note: This refers to a Singapore solicitor qualified to practice Singapore law in a Singapore law practice.
+Click 
+   
+here to search for a Certificate Issuer in the OPG Online (OPGO) system.
+
+Important Role of the LPA Certificate Issuer
+The LPA certificate issuer signs on the LPA Form as a witness for the Donor, to certify that the Donor has the mental capacity to make an LPA - he understands the purpose of the LPA and the scope of authority granted to Donees. 
+The LPA certificate issuer also ensures that there is no fraud or undue influence used to induce the Donor to make the LPA.  
+In order to prevent a conflict of interest, a person is disqualified from giving an LPA Certificate if that person is - 
+   a)   A family member of the Donor;
+b)   A Donee* of that power;
+c)   A Donee* of any other lasting power of attorney which has been executed by the Donor (whether or not it has been revoked);
+d)   A family member of a Donee* within sub-paragraphs (b) and (c);
+e)   A director or an employee of a person other than an individual acting as a Donee* within sub-paragraphs (b) and (c);
+f)   A business partner or an employee of - 
+       i.   The Donor; or
+       ii.   A Donee* within sub-paragraphs (b) and (c);
+g)   An owner, a director, a manager or an employee of any care facility where the Donor lives or is cared for when the instrument is executed; or 
+h)   A family member of a person within sub-paragraph (g). 
+
+*"Donee" includes a "Replacement Donee".
+
+
+List of 10 Most Visited Certificate Issuers and Range of Fees Charged
+Click here for the 
+      
+
+Top 10 Frequently Visited Certificate Issuers.pdf based on the LPA applications the OPG received. Updated: 25 Jan 2023.
+The fees charged depends on the complexity of the case. The OPG does not prescribe the fees charged. Members of the public are advised to check with the individual Certificate Issuer on his professional charges. 
+As at Jan 2023, the fees range of the top 10 most frequented Certificate Issuers across the three groups of professionals for LPA Form 1 certification are as follows:
+
+
+
+​Accredited doctors
+​$25 to $59
+
+
+​Lawyers 
+​$80 to $300
+
+
+​Psychiatrists
+​​$265 to $450
+
+
+
+
+Not-for-profit Organisations who offer LPA Certificate Issuing Services 
+
+
+
+Life Point's LPA One-Stop Services
+
+
+Potter's Place Community Services Society(Applicants will have to pass a Means Test)
+
+
+Mount Alvernia Outreach Medical Clinic @ Enabling Village(Only for referrals from MSF or social service organisations and persons with disability)
+
+
+Interested applicants are advised to call their preferred not-for-profit organisations to make an appointment.​
+
+Upcoming LPA​​ Certificate Issuing events
+
+
+Interested applicant​s have to contact the respective organisations to make an appointment.. 
+​1. Life Point (Society of Sheng Hong Welfare Services) <Chargeable>
+
+Interested applicants will have to attend the 
+         LPA talk before they can sign up for LPA certification services.​
+ 
+
+<< 
+         Back to main pageLast Updated: 14 Nov 2022​​​​​​​​​​​​​​​​​​​​​
+ 
+
+
+
+
+
+
+
+msf_lpa-usage https://www.msf.gov.sg/opg/Pages/The-LPA-Using-a-Lasting-Power-of-Attorney.aspx
+
+
+Page Content
+​​​​​ 
+
+A Donee is able to transact on a Donor’s behalf only when the Donor has been certified by a registered medical practitioner to have lost mental capacity. All registered medical practitioners are able to provide such medical reports.
+
+
+When transacting with any third party agency (e.g. banks, insurance agencies, HDB, CPFB, SLA etc.), please send the Donor’s electronic LPA to the agency via your OPGO dashboard, to ensure the latest version of the LPA is relied on.
+
+
+Other supporting documents may also be required by the agency e.g. NRIC of Donee(s), doctor’s medical report certifying Donor’s loss of mental capacity to manage his/her affairs. Click 
+         
+here​ for a sample of the medical report. 
+An individual’s loss of mental capacity may be temporary or permanent. If the Donor regains capacity, the Donee must step aside for the Donor to make his own decisions. The LPA remains valid and can be used should the Donor lose mental capacity again.​ ​​​​​​​​​​​​​​​​​​​​​​​​​​​​ 
+   
+
+
+
+
+
+
+
+
+
+
+msf_court-appointed-deputy-intro https://www.msf.gov.sg/opg/Pages/What-Is-A-Court-Appointed-Deputy.aspx
+
+
+Page Content
+
+
+
+
+
+
+What is a Deputy?
+A Deputy is appointed by the court to make certain decisions on behalf of a person who lacks mental capacity when the person has not made a Lasting Power of Attorney (LPA) and has no Donee to decide on his behalf in respect of those decisions. A Deputy can be an individual or a licensed trust company under the Trust Companies Act (Cap.336), as prescribed by the Mental Capacity Regulations.
+For persons without next of kin or suitable next of kin, Professional Deputies may apply to be their Deputies.
+​​Parents may also apply to court to appoint themselves as Deputies for their children who lack mental capacity. A successor Deputy may also be appointed in the event where Deputies are unable to act due to loss of mental capacity themselves, or death.
+
+Last Updated: 14 Nov 2022
+
+
+
+
+
+
+
+msf_court-appointed-deputy-procedure https://www.msf.gov.sg/opg/Pages/How-Do-I-Apply-For-the-Appointment-of-a-Deputy.aspx
+
+
+Page Content​​​​​​​
+
+
+
+
+
+
+​​Procedures for the Appointment of a Deputy
+You may apply to the court to seek a court order to be appointed as a Deputy. Anyone above 21 years of age can apply to be a Deputy. A Deputy is usually a family member or close friend who would act in the best interest of the person who lacks capacity.Click 
+   
+
+here for more information on how to apply to be a Deputy.Applicants may approach the following organisations for guidance for their deputyship application.​Simplified process​​​​Standard process​Movement for the Intellectually Disabled Singapore (MINDS)11 Jalan Ubi, Blk 3 #01-21Kembangan-Chai Chee Community HubSingapore 409074 Tel: 6547 8503 Email: css@minds.org.sg Website: www.minds.org.sg ​Community Justice Centre (CJC)1 Havelock SquareState Courts Towers B1-6/7/8Singapore 059724 Tel: 6557 4100 Email: help@cjc.org.sg Website: https://www.cjc.org.sg/​
+Last Updated: 14 Nov 2022
+
+
+
+
+
+
+
+msf_court-appointed-deputy-procedure https://www.msf.gov.sg/opg/Pages/Deputyship.aspx
+
+
+Page Content
+Filing of Deputy ReportsThe process of filing a hardcopy Deputy Report has been replaced and simplified by a full online process to help you record and track expenses with Finance Tracker in OPGO. ​​​​​​​Deputy Reports submitted via post or email will no longer be accepted from 14 Nov 2022. You can only submit your Deputy Report through OPGO.For existing Deputies with reporting period ending between Jul 2022 and Jul 2023, OPG will allow the report to be filed within 6 months from the end of the reporting period.
+
+
+For Joint Deputies with the same powers:
+
+
+If you require personalised help, you can make an appointment with OPG. Please contact OPG at 1800 111 2222 or email enquiry@publicguardian.gov.sg to make an appointment.​
+
+
+
+
+
+
+
+
+
+
+msf_pdd-intro https://www.msf.gov.sg/opg/Pages/About-PDD.aspx
+
+
+Page Content
+​​​​​​​​​​​​​​​​​​​About the Professional Deputies and Donees Scheme
+The Mental Capacity (Registration of Professional Deputies) Regulations 2018 came into effect on 1 September 2018, allowing professional deputies to act for persons who lack mental capacity (known as 'P') for remuneration. Professional deputies must be unrelated to P.
+The Professional Deputies and Donees (PDD) scheme aims to serve individuals, who may not have family members or close friends to rely on;​​​ to be their proxy decision makers. 
+The role of a professional deputy is an important one, in which the professional deputy must be prepared to make key decisions affecting P’s property & affairs and personal welfare. Professionals registered under this scheme come from selected professional groups (i.e. lawyers, doctors, accountants, allied health professionals, nurses and social workers). ​
+ 
+How are Professional Deputies appointed?  
+Professional Deputies can apply to Court to act for individuals who have lost mental capacity and include the (i) P-focused plan and (ii) Schedule of Assets as part of the application. Individuals with mental capacity can also choose to make a Lasting Power of Attorney (LPA), and appoint a Professional Deputy to act as a Donee. Professional Donee is required to submit the (i) P-focused plan, (ii) Donor’s latest Schedule of Assets and (iii) Medical report within 2 months after the LPA comes into force​. Professional Deputies are to submit P-focused plans as supporting documents when submitting the annual Deputy Report.
+More Information on the Professional Deputies Scheme 
+ Mental Capacity (Registration of Professional Deputies) Regulations 2018 The Public Guardian’s Terms and Conditions for Registration as a Professional Deputy Code of Practice for Professional Deputies 
+
+​List of Registered Professional Deputies
+
+ Click here for the 
+            
+List of Professional Deputies and Donees  ​ Last updated: 14 Nov 2022​​ ​​​​​​​​​​​​​​​​​​​
+
+
+
+
+
+
+
+
+
+
+msf_pdd-eligibility https://www.msf.gov.sg/opg/Pages/Registering-as-a-Professional-Deputy.aspx
+
+
+Page Content​​
+
+
+
+
+
+
+Eligibility criteria
+
+
+
+Professionals are required to pass a certification course and meet the following eligibility criteria to be registered as a Professional Deputy:
+a) Being from one of the eligible classes of persons:​
+
+Singapore Qualified Lawyers, admitted as Advocates and Solicitors under the Legal Profession Act; Registered Public Accountants under the Accountants Act; Registered Chartered Accountants under the Singapore Accountancy Commission Act (Cap. 294B); Registered Medical Practitioners under the Medical Registration Act; Registered Allied Health Professionals under the Allied Health Professions Act; Registered Nurses under the Nurses & Midwives Act; Registered Social Workers or Registered Social Service Practitioners with the Social Work Accreditation and Advisory Board. ​
+
+b) Is/has been appointed as a Deputy by the court, or to act as legal counsel, or practised in his profession for continuous period of at least 5 years. c) Not being a bankrupt or discharged bankrupt who is still on Official Assignee's records. d) Having good credit rating from Credit Bureau.e) Not facing criminal proceedings or convicted of certain criminal offences involving moral turpitude, offences against persons, offences against public order and offences showing financial dishonesty.f) Not facing or found liable in any civil proceedings for breach of fiduciary duties.
+
+Interested professionals may refer to this page for any updates on the next run of certification course.​
+
+
+
+
+
+
+
+
+sso_enforcement-muslim-law-act https://sso.agc.gov.sg/Act/AMLA1966?ProvIds=pr53-#pr53-
+
+
+
+Search Results
+
+
+
+
+
+
+Enforcement of order53.—(1)  Where the Court has made any of the following orders, whether before, on or after 1 March 2009, such order may be treated as a maintenance order made by a Family Court under the Women’s Charter 1961, including a maintenance order for the purposes of Part 9 of the Women’s Charter 1961, solely for the purpose of the enforcement of that order by the Family Court:(a)an order for the payment of maintenance under section 51(1), (2) or (3);(b)an order for the payment of a consolatory gift or mutaah under section 52(2) or (3)(b);(c)an order for the maintenance of a minor child under section 52(3)(c).[27/2014](2)  Where the Court has made any of the following orders, whether before, on or after 1 March 2009, such order may be treated as an order made by a Family Court solely for the purpose of the enforcement of that order by the Family Court:(a)an order for the payment of emas kahwin and marriage expenses (hantaran belanja) under section 52(1) or (3)(a);(b)an order for the custody of a minor child under section 52(3)(c);(c)an order for the disposition or division of property under section 52(3)(d).[27/2014](3)  For the purposes of subsection (1), the provisions of the Women’s Charter 1961 apply, with the necessary modifications, to the enforcement of any order of the Court referred to in that subsection by the Family Court.[27/2014](4)  A Family Court has jurisdiction to enforce any order in accordance with this section regardless of the monetary amount involved.[27/2014](5)  In enforcing a custody order under subsection (2), a Family Court may exercise the powers conferred by section 14 of the Guardianship of Infants Act 1934.[27/2014](6)  Where, on or after the commencement of proceedings in a Family Court for the enforcement of an order made by the Syariah Court pursuant to subsection (1) or (2), a party aggrieved by that order has made any application under section 55 or commenced any proceedings in any court affecting that order, the Family Court may, on its own motion or on the application of any party, stay the proceedings for the enforcement of that order on such terms as it thinks fit.[27/2014](7)  The Family Justice Rules Committee constituted under section 46(1) of the Family Justice Act 2014 may make Family Justice Rules —(a)to regulate and prescribe the procedure and practice to be followed in any proceedings commenced in a Family Court pursuant to subsection (1) or (2); and(b)to provide for any matter relating to any such procedure or practice.[27/2014](8)  The Family Justice Rules may, instead of providing for any matter, refer to any provision made or to be made about that matter by practice directions issued for the time being by the registrar of the Family Justice Courts.[27/2014]
+
+
+
+msf_fgo https://www.msf.gov.sg/policies/Children-and-Youth/Pages/Family-Guidance-Order.aspx
+Family Guidance Order
+
+With effect from 1 July 2020, the court order for a Child or Young Person (CYP) who is labelled as "Beyond Parental Control" has been renamed the "Family Guidance Order" (FGO) to emphasise the importance of the family and support CYPs with behavioural concerns.
+An FGO is issued to CYPs who are below 16 years of age and display serious behavioural challenges that parents might apply for the Youth Court's assistance. 
+Parents who wish to apply for an FGO must first arrange for an appointment to undergo a Pre-FGO screening with the appointed Agencies. The Agencies are Singapore Children's Society or Epworth Community Services. 
+Parents and the CYP will subsequently be referred to a mandatory family programme conducted by either of the appointed agencies and they must complete the programme before parents can apply for an FGO in Youth Court.
+If issues between the CYP and parents are not resolved despite the mandatory family programme, parents may proceed to make an FGO application* through the agencies. The agency will assess the application and make recommendations to the Court on intervention options. 
+The Court may decide to mandate the family to undergo the mandatory family programme, order the CYP and their family to undergo a social investigation or dismiss the case.
+As part of the FGO, the Court can also order to place the CYP under statutory supervision or admit him/her into a Home gazetted under the Children and Young Persons Act for a period not exceeding three years.
+The FGO is reserved for CYPs with very serious behavioural issues. If the CYPs' behavioural concerns are assessed to be of low risk, parents may wish to reach out to the nearest Family Service Centres or youth agencies for support. From 1 October 2021, parents can now use this Link
+ to register for an appointment with either one of the pre-FGO agencies 
+(Epworth Community Services or Singapore Children’s Society).  You will 
+need
+ to log in using your Singpass. Alternatively you may wish to contact Singapore Children's Society or Epworth Community Services directly to
+ register for an appointment. 
+* Withdrawal of an FGO application filed will require the Court's approval. 
+
+
+
+
+
+
+
+
