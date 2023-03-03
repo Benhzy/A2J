@@ -1,65 +1,95 @@
 import os
-import openai
-from flask import Flask, redirect, render_template, request, url_for
 from dotenv import load_dotenv
+from langchain.llms import OpenAI
+from langchain.docstore.document import Document
+import requests
+from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.chains.question_answering import load_qa_chain
+from langchain.vectorstores import Chroma
+from langchain.text_splitter import CharacterTextSplitter
+from langchain.chains.conversation.memory import ConversationBufferMemory
+from langchain import OpenAI, LLMChain, PromptTemplate
+import pathlib
+import subprocess
+import tempfile
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_random_exponential,
+)
 
 load_dotenv()
-app = Flask(__name__)
-openai.api_key = os.getenv("API_KEY")
+os.environ["OPENAI_API_KEY"] = os.getenv("API_KEY")
+query_sum = ''
 
-@app.route("/", methods=("GET", "POST"))
+def get_source():
+    for file_name in os.listdir("db\\"):
+        if file_name.endswith('.txt'):
+            name, ext = os.path.splitext(file_name)
+            with open(os.path.join("db\\", file_name), 'r', encoding="utf8") as file:
+                yield Document(page_content=file.read(), metadata={"source": name})
 
 
+def compare_chunks(sources): 
+    source_chunks = []
+    splitter = CharacterTextSplitter(separator=" ", chunk_size=720, chunk_overlap=0)
+    for source in sources:
+        for chunk in splitter.split_text(source.page_content):
+            source_chunks.append(Document(page_content=chunk, metadata=source.metadata))
+    return Chroma.from_documents(source_chunks, OpenAIEmbeddings())
 
-def index():
-    categories = ["divorce", "adoption","deputyship", "guardianship", "maintenance" ]
-    if request.method == "POST":
-        issue = request.form["issue"]
-        relevant_db = categorize_issue(issue, categories)
-        if relevant_db is None:
-            return redirect(url_for("index", result="Sorry, I do not possess the information that you are looking for yet. As of now, I am only able to answer questions in the area of family law."))
-        with open("db\\" + relevant_db + ".txt", "r") as file_db, open("structure\\" + relevant_db + ".txt", "r") as file_st:
-            db = file_db.read()
-            st = file_st.read()
-        prompt = generate_prompt(issue, db, st)
-        start_sequence = "\nUser:"
-        restart_sequence = "\n\nBob: "
-        response = openai.Completion.create(
-            model="text-davinci-003",
-            prompt= prompt,
-            temperature=0,
-            max_tokens=100,
-            top_p=1,
-            frequency_penalty=0,
-            presence_penalty=0,
-            stop=[" User:", " Bob:"]
-        )
-        return redirect(url_for("index", result=response.choices[0].text))
 
-    result = request.args.get("result")
-    return render_template("index.html", result=result)
+def generate_prompt():
+    prompt_template = """
+    Chat History:
+    ---------
+    {chat_history}
+    ---------
+    Context:
+    ---------
+    {context}
+    ---------
+    Legal Question: {question}
+    
+    Instructions:
+    Use the context provided to answer the legal question, taking into consideration of the chat history if any. If you are not certain about the answer, please indicate that you do not have the necessary information and recommend that the user seek legal advice from lawyers. To obtain legal aid, provide the user with a link to 'https://www.probono.sg/'.
 
-def categorize_issue(issue, categories):
-    prompt = f"Categorize the issue '{issue}' into one of the following categories, and return me with one category. Categories: {', '.join(categories)}."
-    response = openai.Completion.create(
-        engine="text-davinci-003",
-        prompt=prompt,
-        max_tokens=100,
-        n=1,
-        temperature=0.9,
-        top_p=1,
-        presence_penalty=0.6
+    Please structure your response in the following format:
+    User: [question here]
+    AI: [reply here]
+
+"""
+    return prompt_template
+
+@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
+def ask_bot(query):
+    search_index = compare_chunks(get_source())
+    global query_sum
+    query_sum += '\n' + query
+    embeddings = OpenAIEmbeddings()
+    docs = search_index.similarity_search(query_sum, k=4)
+    memory = ConversationBufferMemory(memory_key="chat_history", input_key="question")
+    PROMPT = PromptTemplate(
+        template = generate_prompt(),
+        input_variables=["context", "question", "chat_history"],
     )
-    issue_category = response.choices[0].text.strip().lower()
-    if issue_category in categories:
-        return issue_category
-    return None
+    chain = load_qa_chain(
+    OpenAI(temperature=0),
+    chain_type="stuff",
+    prompt=PROMPT,  
+    memory=memory,
+    )
+    query = query
+    chain({"input_documents": docs, "question": query}, return_only_outputs=True)
+    result = chain.memory.buffer
+
+    return result
 
 
-def generate_prompt(issue, db, st):
-
-    return """I am an AI assistant that answers legal questions strictly based on the database {0}. I will guide users on the legal procedures, and ask if the user has completed the required step, following the structure of {1}. I will try to answer the question according to the database. However, if I do not know the answer to the question, or if the question is too complicated, or if the question requires input from a lawyer, I will recommend the user to seek legal advice from lawyers, and direct them to 'https://www.probono.sg/'. 
-
-issue: {2}
-reply:
-""".format(db, st, issue.capitalize())
+while True:
+    query = input('User: ')
+    print(query)
+    bot_output = ask_bot(query)
+    print(bot_output)
+    if query == '':
+        break
