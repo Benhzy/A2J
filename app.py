@@ -88,8 +88,8 @@ def ask_bot(query):
 
 while True:
     query = input('User: ')
+    if query == '':
+        break
     print(query)
     bot_output = ask_bot(query)
     print(bot_output)
-    if query == '':
-        break
