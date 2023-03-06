@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 5 Sidebar Example</title>
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+	<!-- Custom CSS -->
+	<style>
+
+        body::before {
+            content: "";
+            background: url('../static/background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.7; /* 70% opacity */
+        }
+
+        .chat-messages {
+            overflow-y: scroll;
+            height: calc(100vh - 100px); /* adjust the height based on the height of the sidebar and chat input */
+        }
+        
+		.sidebar {
+			height: 100%;
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 230px;
+			background-color: #11273F;
+			padding: 10px;
+		}
+		
+        .message {
+            background-color: #c0c9d3;
+            width: calc(100% - 230px);
+            height: auto;
+            padding: 10px;
+            margin-bottom: 10px;
+            opacity: 0.7; /* 70% opacity */
+        }
+        .chat-input {
+            position: fixed;
+            bottom: 0;
+            left: 250px; /* match the width of the sidebar */
+            right: 0; /* use the remaining space to the right */
+            padding: 10px;
+            background-color: #fff;
+            border-top: 1px solid #ccc;
+        }
+
+		.chat-input input {
+			width: calc(100% - 75px);
+			height: 40px;
+			border: none;
+			border-radius: 20px;
+			padding: 10px;
+			font-size: 16px;
+			background-color: #f0f0f0;
+			outline: none;
+			margin-right: 10px;
+		}
+
+		.welcome-message {
+			position: fixed;
+			top: 0;
+			left: 250px;
+			padding: 10px;
+			font-size: 40px;
+			font-weight: bold;
+		}
+
+
+	</style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <div class="col-3 sidebar">
+            <h3>Historical Chats</h3>
+            <ul class="list-group">
+              <li class="list-group-item">Chat 1</li>
+              <li class="list-group-item">Chat 2</li>
+              <li class="list-group-item">Chat 3</li>
+              <li class="list-group-item">Chat 4</li>
+              <li class="list-group-item">Chat 5</li>
+            </ul>
+          </div>
+          <div class="welcome-message">Welcome. <br> How can PocketLaw help you?</div>
+
+          <div class="col-9 d-flex flex-column-reverse">
+            <div class="chat-messages"></div>
+            <div class="chat-input">
+                <input type="text" placeholder="Type your message...">
+              <button id="send-btn" class="bi-send"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+	<!-- Bootstrap JavaScript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script>
+    <script>
+        const chatInput = document.querySelector('.chat-input input');
+        const sendButton = document.querySelector('#send-btn');
+        const chatMessages = document.querySelector('.chat-messages');
+
+        function sendMessage() {
+        const messageText = chatInput.value;
+        if (messageText.trim() !== '') {
+            const messageElement = document.createElement('div');
+            messageElement.classList.add('message');
+            messageElement.textContent = messageText;
+            chatMessages.appendChild(messageElement);
+            chatInput.value = '';
+        }
+        }
+
+        sendButton.addEventListener('click', sendMessage);
+        chatInput.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter') {
+            event.preventDefault();
+            sendMessage();
+        }
+        });
+    </script>
+</body>
+</html>
+
