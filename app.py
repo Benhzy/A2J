@@ -20,7 +20,7 @@ from tenacity import (
 
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("API_KEY")
-query_sum = ''
+query_list = []
 
 def get_source():
     for file_name in os.listdir("db\\"):
@@ -61,13 +61,16 @@ def generate_prompt():
 """
     return prompt_template
 
-@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
+#@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
 def ask_bot(query):
     search_index = compare_chunks(get_source())
-    global query_sum
-    query_sum += '\n' + query
+    global query_list
+    query_list.append(query)
+    if len(query_list) > 3:
+        query_list.pop(0)
+    query_sum = ' '.join(query_list)
     embeddings = OpenAIEmbeddings()
-    docs = search_index.similarity_search(query_sum, k=4)
+    docs = search_index.similarity_search(query_sum, k=3)
     memory = ConversationBufferMemory(memory_key="chat_history", input_key="question")
     PROMPT = PromptTemplate(
         template = generate_prompt(),
