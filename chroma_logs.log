@@ -278,3 +278,126 @@ DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
 DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
 DEBUG:Chroma:time to pre process our knn query: 0.0
 DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009655952453613281
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0014095306396484375
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0010066032409667969
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0010035037994384766
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.000997304916381836
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009970664978027344
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009610652923583984
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009529590606689453
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009913444519042969
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
