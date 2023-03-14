@@ -89,7 +89,3 @@ def start(language):
         query = input(f"User: ")
     print("Was my answer helpful?")
 
-
-start('Chinese')
-
-print(search_index)
