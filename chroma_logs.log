@@ -278,3 +278,86 @@ DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
 DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
 DEBUG:Chroma:time to pre process our knn query: 0.0
 DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:18:10] "GET /get?msg=I%20want%20to%20divorce HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Edward Sim\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0012063980102539062
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:30:42] "[35m[1mGET /get?msg=I%20want%20to%20divorce HTTP/1.1[0m" 0 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Edward Sim\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:33:17] "GET /get?msg=I%20want%20to%20divorce HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:34:34] "GET / HTTP/1.1" 200 -
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0010845661163330078
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:35:09] "GET /get?msg=I%20want%20to%20adopt HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Edward Sim\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:36:21] "[35m[1mGET /get?msg=I%20want%20to%20adopt HTTP/1.1[0m" 0 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:40:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:40:04] "GET /static/background.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:45:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:45:14] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:49:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:49:16] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:51:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Mar/2023 21:51:43] "[36mGET /static/background.jpg HTTP/1.1[0m" 304 -

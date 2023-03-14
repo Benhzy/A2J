@@ -1,4 +1,4 @@
 @echo off
 
-CALL venv\Scripts\activate.bat
+CALL templates\venv\Scripts\activate.bat
 python app.py

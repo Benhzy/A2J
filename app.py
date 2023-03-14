@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from langchain.llms import OpenAI
 from langchain.docstore.document import Document
 import requests
+from flask import Flask, redirect, url_for, render_template, request 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
 from langchain.vectorstores import Chroma
@@ -17,6 +18,16 @@ from tenacity import (
     stop_after_attempt,
     wait_random_exponential,
 )
+
+app=Flask(__name__)
+@app.route('/')
+def home():
+    return render_template('samplefrontendmahesh.html')
+
+
+
+
+
 
 load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("API_KEY")
@@ -89,10 +100,14 @@ def ask_bot(query):
     return result
 
 
-while True:
-    query = input('User: ')
-    if query == '':
-        break
-    print(query)
-    bot_output = ask_bot(query)
-    print(bot_output)
+
+
+
+@app.route('/get')
+def get_bot_response():
+
+    userText=request.args.get("msg")
+    return "Processing, please wait", (str(ask_bot(userText)))
+
+if __name__=='__main__':
+    app.run()
