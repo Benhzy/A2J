@@ -5,58 +5,84 @@
   <title>PocketLaw</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="./styles.css" >
+  <link rel="stylesheet" type="text/css" href="../static/css/style.css" >
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
 <body>
   <div class="container-fluid">
-      <div class="row">
-        <div class="col-3 sidebar">
-          <h3 id="sidebar title">Historical Chats</h3>
-            <btn class="btn" id="new-chat">New Chat</btn>
-            <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
-              <li class="nav-link">Chat 1</li>
-          </ul>
+    <div class="row">
+
+      <div class="col-2 sidebar">
+        <h3 id="sidebar title">PocketLaw</h3>
+          <btn class="btn" id="new-chat">New Chat</btn>
+          <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
+            <li class="nav-link">Chat 1</li>
+        </ul>
+      </div>
+
+      <div class="col" style="height: 100vh;">
+
+        <div class="row chat-area">
+          <div id="chatbox"> 
+            <p class="botText">
+              <span>Welcome! How can PocketLaw help you?</span>
+            </p>
+          </div>
         </div>
 
-                <div class="box"></div>
-                <div class="boxed">
-                <div>
-                <div id="chatbox">
-                <img src="https://www.logolynx.com/images/logolynx/s_b9/b9075efd5754f8eb0b28894bbff5f1f0.jpeg" alt="CANDICE" style="width:50px;height:50px;"/>
-                <p class="botText">
-                <span>Hello there! I am Sunanda's Resume ChatBot</span>
-                </p>
-                </div>
-                <div id="userInput">
+        <div class="row text-area">
+          <div class="row" id="userInput">
             <input id="textInput" type="text" name="msg" placeholder="Message" />
+            <button id="record-btn" class="bi bi-mic-fill"></button>
+          </div> 
         </div>
+
+      </div>
+
     </div>
   </div>
 
   <script>
-        function getBotResponse() {
-          var rawText = $("#textInput").val();
-          var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
-          $("#textInput").val("");
-          $("#chatbox").append(userHtml);
-          document
-            .getElementById("userInput")
-            .scrollIntoView({ block: "start", behavior: "smooth" });
-          $.get("/get", { msg: rawText }).done(function(data) {
-            var botHtml = '<p class="botText"><span>' + data + "</span></p>";
-            $("#chatbox").append(botHtml);
-            document
-              .getElementById("userInput")
-              .scrollIntoView({ block: "start", behavior: "smooth" });
-          });
+    function getBotResponse() {
+      var rawText = $("#textInput").val();
+      var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
+      $("#textInput").val("");
+      $("#chatbox").append(userHtml);
+      document
+        .getElementById("userInput")
+        .scrollIntoView({ block: "start", behavior: "smooth" });
+      $.get("/get", { msg: rawText }).done(function(data) {
+        var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+        $("#chatbox").append(botHtml);
+        document
+          .getElementById("userInput")
+          .scrollIntoView({ block: "start", behavior: "smooth" });
+      });
+    }
+    $("#textInput").keypress(function(e) {
+      if (e.which == 13) {
+        getBotResponse();
+      }
+    });
+
+    const createChat = document.querySelector('#new-chat');
+    var chatMsgID = 1;
+
+    function addChat() {
+      var ul = document.getElementById('chat-list');
+      var li = document.createElement('li');
+      chatMsgID++;
+      var sibs = ul.children;
+      for(let sib of sibs) {
+        sib.classList.remove('active')
         }
-        $("#textInput").keypress(function(e) {
-          if (e.which == 13) {
-            getBotResponse();
-          }
-        });
+      li.appendChild(document.createTextNode('Chat '+chatMsgID));
+      li.classList.add('nav-link');
+      li.classList.add('active');
+      ul.append(li);
+    }
+    createChat.addEventListener('click',addChat);
   </script>
 </body>
 </html>

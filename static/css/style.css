@@ -12,41 +12,13 @@ body::before {
     opacity: 0.1; 
 }
 
-body {
-    font-family: monospace;
-  }
 
-.chat-messages {
-    overflow-y: scroll;
-    height: 80%; 
-}
-
-h1 {
-    background-color: #FFC9BE;
-    display: inline-block;
-    font-size: 3em;
-    margin: 0;
-    padding: 14px;
-  }
-h3 {
-color: black;
-font-size: 20px;
-margin-top: 3px;
-text-align: center;
-}
-    
 .sidebar {
     background-color: #11273F;
     padding: 10px;
+    color: white;
 }
     
-.message {
-    background-color: #c0c9d3;
-    height: auto;
-    padding: 10px;
-    margin-bottom: 10px;
-    opacity: 0.7; /* 70% opacity */
-}
 .chat-input {
     bottom: 0;
     left: 25%; /* match the width of the sidebar */
@@ -69,25 +41,27 @@ text-align: center;
 }
 
 #chatbox {
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    margin-top: 60px;
+    /* margin-left: auto;
+    margin-right: auto; */
+    width: 100%;
+    margin-top: 25px;
+    overflow-y: auto;
+    height: 90%;
 }
 
 #userInput {
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
-    margin-top: 60px;
+    width: 90%;
+    text-align: left;
 }
 
 #textInput {
     width: 90%;
     border: none;
     border-bottom: 3px solid black;
-    font-family: monospace;
     font-size: 17px;
+    text-align: left;
 }
 
 .welcome-message {
@@ -102,16 +76,20 @@ text-align: center;
 
 
 .chat-area{
-    height: 100vh;
+    height: 90%;
     padding-right: 0;
+}
+
+.text-area{
+    height: 10%;
 }
 
 .userText {
     color: black;
-    font-family: monospace;
     font-size: 17px;
     text-align: right;
     line-height: 30px;
+    margin-right: 40px;
 }
 
 .userText span {
@@ -122,33 +100,14 @@ text-align: center;
 
 .botText {
     color: black;
-    font-family: monospace;
     font-size: 17px;
     text-align: left;
     line-height: 30px;
+    margin-left: 40px;
 }
 
 .botText span {
     background-color: #BEE3FF;
     padding: 10px;
     border-radius: 2px;
-}
-
-#tidbit {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-}
-
-.boxed {
-    margin-left: auto;
-    margin-right: auto;
-    width: 78%;
-    margin-top: 60px;
-    border: 1px solid green;
-}
-
-.box {
-    border: 2px solid black;    
 }
