@@ -1,0 +1,153 @@
+body::before {
+    content: "";
+    background: url('../static/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.1; 
+}
+
+body {
+    font-family: monospace;
+  }
+
+.chat-messages {
+    overflow-y: scroll;
+    height: 80%; 
+}
+
+h1 {
+    background-color: #FFC9BE;
+    display: inline-block;
+    font-size: 3em;
+    margin: 0;
+    padding: 14px;
+  }
+h3 {
+color: black;
+font-size: 20px;
+margin-top: 3px;
+text-align: center;
+}
+    
+.sidebar {
+    background-color: #11273F;
+    padding: 10px;
+}
+    
+.message {
+    background-color: #c0c9d3;
+    height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    opacity: 0.7; /* 70% opacity */
+}
+.chat-input {
+    bottom: 0;
+    left: 25%; /* match the width of the sidebar */
+    right: 0; /* use the remaining space to the right */
+    padding: 10px;
+    background-color: #fff;
+    border-top: 1px solid #ccc;
+}
+
+.chat-input input {
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    outline: none;
+    margin-right: 10px;
+}
+
+#chatbox {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#userInput {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 60px;
+}
+
+#textInput {
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid black;
+    font-family: monospace;
+    font-size: 17px;
+}
+
+.welcome-message {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.send-button {
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+
+.chat-area{
+    height: 100vh;
+    padding-right: 0;
+}
+
+.userText {
+    color: black;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: right;
+    line-height: 30px;
+}
+
+.userText span {
+    background-color: #FDFF60;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.botText {
+    color: black;
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    line-height: 30px;
+}
+
+.botText span {
+    background-color: #BEE3FF;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+#tidbit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+}
+
+.boxed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 78%;
+    margin-top: 60px;
+    border: 1px solid green;
+}
+
+.box {
+    border: 2px solid black;    
+}
