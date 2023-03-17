@@ -1,3 +1,4 @@
+
 body::before {
     content: "";
     background: url('../static/background.jpg') no-repeat center center fixed;

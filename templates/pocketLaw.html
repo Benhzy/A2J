@@ -5,99 +5,22 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-	<!-- Custom CSS -->
-	<style>
-
-    body::before {
-        content: "";
-        background: url('../static/background.jpg') no-repeat center center fixed;
-        background-size: cover;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -1;
-        opacity: 0.1; 
-        /* 70% opacity */
-    }
-
-    .chat-messages {
-        overflow-y: scroll;
-        height: 70%; 
-        /* adjust the height based on the height of the sidebar and chat input */
-    }
-        
-		.sidebar {
-			/* height: 100%;
-			position: fixed;
-			top: 0;
-			left: 0;
-			width: 230px; */
-			background-color: #11273F;
-			padding: 10px;
-		}
-		
-    .message {
-        background-color: #c0c9d3;
-        height: auto;
-        padding: 10px;
-        margin-bottom: 10px;
-        opacity: 0.7; /* 70% opacity */
-    }
-    .chat-input {
-        bottom: 0;
-        left: 25%; /* match the width of the sidebar */
-        right: 0; /* use the remaining space to the right */
-        padding: 10px;
-        background-color: #fff;
-        border-top: 1px solid #ccc;
-    }
-
-		.chat-input input {
-			width: 90%;
-			height: 40px;
-			border: none;
-			border-radius: 20px;
-			padding: 10px;
-			font-size: 16px;
-			background-color: #f0f0f0;
-			outline: none;
-			margin-right: 10px;
-		}
-
-		.welcome-message {
-      font-size: 40px;
-      font-weight: bold;
-		}
-
-    .send-button {
-      border-width: 0px;
-      border-radius: 20px;
-    }
-
-
-	</style>
+	<!-- <link rel="stylesheet" href="style.css"> -->
 </head>
 <body>
 
     <div class="container-fluid">
         <div class="row">
           <div class="col-3 sidebar">
-
-            <h3 style="color: white;">Historical Chats</h3>
-            <ul class="list-group">
-              <li class="list-group-item">Chat 1</li>
-              <li class="list-group-item">Chat 2</li>
-              <li class="list-group-item">Chat 3</li>
-              <li class="list-group-item">Chat 4</li>
-              <li class="list-group-item">Chat 5</li>
+            <h3 id="sidebar title">Historical Chats</h3>
+            <btn class="btn" id="new-chat">New Chat</btn>
+            <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
+              <li class="nav-link">Chat 1</li>
             </ul>
           </div>
           
 
-          <div class="col" style="height: 100vh;padding-right: 0%;"> 
-            <!-- d-flex flex-column-reverse removed from class -->
+          <div class="col chat-area"> 
             <div class="welcome-message">Welcome. <br> How can PocketLaw help you?</div>
             <div class="chat-messages" id = "chatbox"></div>
             <div class="chat-input fixed-bottom">
@@ -137,6 +60,31 @@
       </div>
 	<!-- Bootstrap JavaScript -->
 	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.min.js"></script> -->
+  <script>
+    const chatInput = document.querySelector('.chat-input input');
+    const sendButton = document.querySelector('#send-btn');
+    const chatMessages = document.querySelector('.chat-messages');
+    const createChat = document.querySelector('#new-chat');
+    var chatMsgID = 1;
+
+    function addChat() {
+      var ul = document.getElementById('chat-list');
+      var li = document.createElement('li');
+      chatMsgID++;
+      var sibs = ul.children;
+      for(let sib of sibs) {
+        sib.classList.remove('active')
+        }
+      li.appendChild(document.createTextNode('Chat '+chatMsgID));
+      li.classList.add('nav-link');
+      li.classList.add('active');
+      ul.append(li);
+    }
+    createChat.addEventListener('click',addChat);
+
+
+</script>
+
 </body>
 </html>
 
