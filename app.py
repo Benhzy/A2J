@@ -33,49 +33,11 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = os.getenv("API_KEY")
 query_list = []
 
-def get_source():
-    for file_name in os.listdir("db\\"):
-        if file_name.endswith('.txt'):
-            name, ext = os.path.splitext(file_name)
-            with open(os.path.join("db\\", file_name), 'r', encoding="utf8") as file:
-                yield Document(page_content=file.read(), metadata={"source": name})
-
-
-def compare_chunks(sources): 
-    source_chunks = []
-    splitter = CharacterTextSplitter(separator=" ", chunk_size=720, chunk_overlap=0)
-    for source in sources:
-        for chunk in splitter.split_text(source.page_content):
-            source_chunks.append(Document(page_content=chunk, metadata=source.metadata))
-    return Chroma.from_documents(source_chunks, OpenAIEmbeddings())
-
-
-def generate_prompt():
-    prompt_template = """
-    Chat History:
-    ---------
-    {chat_history}
-    ---------
-    Context:
-    ---------
-    {context}
-    ---------
-    Legal Question: {question}
-    
-    Instructions:
-    Use the context provided to answer the legal question, taking into consideration of the chat history if any. If you are not certain about the answer, please indicate that you do not have the necessary information and recommend that the user seek legal advice from lawyers. To obtain legal aid, provide the user with a link to 'https://www.probono.sg/'.
-
-    Please structure your response in the following format:
-    User: [question here]
-    AI: [reply here]
-
-"""
-    return prompt_template
-
-#@retry(wait=wait_random_exponential(min=1, max=60), stop=stop_after_attempt(3))
-def ask_bot(query):
-    search_index = compare_chunks(get_source())
+def ask_bot(query, language = "English"):
+    if language != "English":
+        query = translate(query, 'English')
     global query_list
+    search_index = Chroma(persist_directory='vector_db', embedding_function= OpenAIEmbeddings())
     query_list.append(query)
     if len(query_list) > 3:
         query_list.pop(0)
@@ -90,15 +52,15 @@ def ask_bot(query):
     chain = load_qa_chain(
     OpenAI(temperature=0),
     chain_type="stuff",
-    prompt=PROMPT,  
+    prompt=PROMPT,
     memory=memory,
     )
     query = query
     chain({"input_documents": docs, "question": query}, return_only_outputs=True)
-    result = chain.memory.buffer
-
+    result = chain.memory.buffer.split("AI:")[-1]
+    if language != "English":
+        result = translate(result, language)
     return result
-
 
 
 
