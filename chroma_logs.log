@@ -367,3 +367,6 @@ INFO:werkzeug:127.0.0.1 - - [17/Mar/2023 08:32:00] "[35m[1mGET /get?msg=I%20wa
 INFO:werkzeug:127.0.0.1 - - [17/Mar/2023 08:32:51] "[35m[1mGET /get?msg=i%20want%20to%20get%20a%20divorce HTTP/1.1[0m" 500 -
 DEBUG:Chroma:Logger created
 INFO:werkzeug:127.0.0.1 - - [17/Mar/2023 21:14:28] "[35m[1mGET /get?msg=i%20want%20to HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index not found
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 10:35:59] "[35m[1mGET /get?msg=I%20want%20to%20sue%20company%20X%20as%20their%20product%20caused%20harm%20to%20me.%20how%20what%20are%20my%20chances%3F HTTP/1.1[0m" 500 -
