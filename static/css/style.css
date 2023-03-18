@@ -18,11 +18,87 @@ body::before {
     padding: 10px;
     color: white;
 }
+
+.main-chat-area{
+    height: 100vh;
     
-.chat-input {
+}
+
+.chat-area{
+    height: 85%;
+    padding-right: 0;
+}
+
+.text-area{
+    height: 15%;
+    background-color: lightslategray;
+}
+
+#chatbox {
+    width: 100%;
+    margin-top: 25px;
+    overflow-y: auto;
+    height: 90%;
+}
+
+.userText {
+    color: black;
+    font-size: 17px;
+    /* text-align: right; */
+    line-height: 30px;
+    margin-left: 100px;
+    margin-right: 40px;
+    background-color: #fcf5c7;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: 14px 16px 16px -14px rgba(0,0,0,0.24);
+}
+
+.botText {
+    color: black;
+    font-size: 17px;
+    /* text-align: left; */
+    line-height: 30px;
+    margin-left: 40px;
+    margin-right: 100px;
+    background-color: #a0ced9;
+    border-radius: 10px;
+    padding: 5px 15px 5px 15px;
+    box-shadow: -14px 16px 16px -14px rgba(0,0,0,0.24);
+}
+
+#userInput {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    /* text-align: left; */
+    /* flex-wrap: nowrap; */
+}
+
+#textInput {
+    width: 90%;
+    border: none;
+    border-bottom: 3px solid black;
+    font-size: 17px;
+    text-align: left;
+    height: 75%;
+}
+
+
+.button {
+    border-width: 0px;
+    border-radius: 20px;
+    height: 75%;
+}
+
+
+/* .chat-input {
     bottom: 0;
-    left: 25%; /* match the width of the sidebar */
-    right: 0; /* use the remaining space to the right */
+    left: 25%; 
+    right: 0; 
     padding: 10px;
     background-color: #fff;
     border-top: 1px solid #ccc;
@@ -38,76 +114,4 @@ body::before {
     background-color: #f0f0f0;
     outline: none;
     margin-right: 10px;
-}
-
-#chatbox {
-    /* margin-left: auto;
-    margin-right: auto; */
-    width: 100%;
-    margin-top: 25px;
-    overflow-y: auto;
-    height: 90%;
-}
-
-#userInput {
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-    text-align: left;
-}
-
-#textInput {
-    width: 90%;
-    border: none;
-    border-bottom: 3px solid black;
-    font-size: 17px;
-    text-align: left;
-}
-
-.welcome-message {
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.send-button {
-    border-width: 0px;
-    border-radius: 20px;
-}
-
-
-.chat-area{
-    height: 90%;
-    padding-right: 0;
-}
-
-.text-area{
-    height: 10%;
-}
-
-.userText {
-    color: black;
-    font-size: 17px;
-    text-align: right;
-    line-height: 30px;
-    margin-right: 40px;
-}
-
-.userText span {
-    background-color: #FDFF60;
-    padding: 10px;
-    border-radius: 2px;
-}
-
-.botText {
-    color: black;
-    font-size: 17px;
-    text-align: left;
-    line-height: 30px;
-    margin-left: 40px;
-}
-
-.botText span {
-    background-color: #BEE3FF;
-    padding: 10px;
-    border-radius: 2px;
-}
+} */
