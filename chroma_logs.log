@@ -370,3 +370,55 @@ INFO:werkzeug:127.0.0.1 - - [17/Mar/2023 21:14:28] "[35m[1mGET /get?msg=i%20wa
 DEBUG:Chroma:Logger created
 DEBUG:Chroma:Index not found
 INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 10:35:59] "[35m[1mGET /get?msg=I%20want%20to%20sue%20company%20X%20as%20their%20product%20caused%20harm%20to%20me.%20how%20what%20are%20my%20chances%3F HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 10:53:18] "[35m[1mGET /get?msg=What%20documents%20do%20I%20need%20if%20I%20want%20to%20get%20a%20divorce%3F HTTP/1.1[0m" 0 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:08:18] "[35m[1mGET /get?msg=What%20documents%20do%20I%20need%20if%20I%20want%20to%20get%20a%20divorce%3F HTTP/1.1[0m" 0 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:16:25] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce HTTP/1.1[0m" 0 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:27:24] "GET /get?msg=how%20do%20i%20get%20a%20divorce HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:28:28] "GET /get?msg=what%20is%20normal%20track HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:29:57] "GET /get?msg=what%20was%20the%20guide%20that%20you%20mentioned%3F%20where%20can%20i%20get%20it%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:35:05] "GET /get?msg=what%20should%20I%20do,%20my%20husband%20is%20abusing%20me%20 HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:36:31] "GET /get?msg=I%20don't%20dare%20to%20contact%20the%20police,%20what%20will%20happen%20to%20my%20child%20if%20my%20husband%20gets%20arrested%3F%20 HTTP/1.1" 200 -

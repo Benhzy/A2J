@@ -63,7 +63,7 @@ def ask_bot(query, language = "English"):
     if language != "English":
         query = translate(query, 'English')
     global query_list
-    search_index = Chroma(persist_directory='vector_db', embedding_function= OpenAIEmbeddings())
+    search_index = Chroma(persist_directory='vector_db', embedding_function=OpenAIEmbeddings())
     query_list.append(query)
     if len(query_list) > 3:
         query_list.pop(0)
@@ -90,12 +90,11 @@ def ask_bot(query, language = "English"):
 
 
 
-
 @app.route('/get')
 def get_bot_response():
 
     userText=request.args.get("msg")
-    return "Processing, please wait", (str(ask_bot(userText)))
+    return (str(ask_bot(userText)))
 
 if __name__=='__main__':
     app.run()
