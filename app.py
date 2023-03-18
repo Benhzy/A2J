@@ -18,6 +18,7 @@ from tenacity import (
     stop_after_attempt,
     wait_random_exponential,
 )
+from translate import translate
 
 app=Flask(__name__)
 @app.route('/')
