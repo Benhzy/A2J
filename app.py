@@ -26,6 +26,32 @@ def home():
 
 
 
+def generate_prompt():
+    prompt_template = """
+    Chat History:
+    ---------
+    {chat_history}
+    ---------
+    Context:
+    ---------
+    {context}
+    ---------
+    Legal Question: 
+    ---------
+    {question}
+
+    
+    Instructions:
+    Use the context provided to answer the legal question, taking into consideration of the chat history if any. If you are not certain about the answer, please indicate that you do not have the necessary information and recommend that the user seek legal advice from lawyers. To obtain legal aid, provide the user with a link to 'https://www.probono.sg/'.
+
+    Please structure your response in the following format:
+    User: [question here]
+    AI: [reply here] (If the Choosen Language is not English, please translate your reply to the Choosen Language.)
+
+
+"""
+    return prompt_template
+
 
 
 
