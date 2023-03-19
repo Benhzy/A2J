@@ -422,3 +422,15 @@ WARNING:root:Collection langchain already exists, Do you have the right embeddin
 DEBUG:Chroma:time to pre process our knn query: 0.0
 DEBUG:Chroma:time to run knn query: 0.0
 INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 11:36:31] "GET /get?msg=I%20don't%20dare%20to%20contact%20the%20police,%20what%20will%20happen%20to%20my%20child%20if%20my%20husband%20gets%20arrested%3F%20 HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009975433349609375
+INFO:werkzeug:127.0.0.1 - - [18/Mar/2023 23:51:47] "[35m[1mGET /get?msg=How%20do%20I%20adopt%20a%20child%20from%20China%3F HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 00:18:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 00:18:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 00:18:46] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.050956010818481445
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 00:18:57] "[35m[1mGET /get?msg=divorce HTTP/1.1[0m" 500 -
