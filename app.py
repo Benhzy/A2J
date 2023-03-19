@@ -89,3 +89,6 @@ def start(language):
         query = input(f"User: ")
     print("Was my answer helpful?")
 
+query = '''Can i increase the maintenance i am receiving right now? '''
+result = ask_bot(query)
+print(result)
