@@ -434,3 +434,76 @@ WARNING:root:Collection langchain already exists, Do you have the right embeddin
 DEBUG:Chroma:time to pre process our knn query: 0.0
 DEBUG:Chroma:time to run knn query: 0.050956010818481445
 INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 00:18:57] "[35m[1mGET /get?msg=divorce HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\debug\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\werkzeug\\serving.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\http\\server.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\socketserver.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\threading.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Zhiyi\\.vscode\\extensions\\ms-python.python-2023.4.1\\pythonFiles\\lib\\python\\debugpy\\_vendored\\pydevd\\_pydev_bundle\\pydev_monkey.py', reloading
+INFO:werkzeug: * Detected change in 'c:\\Users\\Zhiyi\\.vscode\\extensions\\ms-python.python-2023.4.1\\pythonFiles\\lib\\python\\debugpy\\_vendored\\pydevd\\_pydev_bundle\\pydev_monkey.py', reloading
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:Logger created
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:12:23] "GET /get?msg=h HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:12:54] "GET /get?msg=whats%20for%20dinner HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:13:20] "GET /get?msg=b HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:15:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:15:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:15:27] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:17:15] "GET /get?msg=How%20do%20I%20file%20for%20bankruptcy%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:18:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:18:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:18:00] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:18:13] "GET /get?msg=How%20do%20I%20respond%20to%20a%20statutory%20demand%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:31:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:31:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:31:43] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:31:58] "GET /get?msg=I%20don't%20understand%20the%20rules%20of%20court.%20Can%20you%20explain%20it%20to%20me%3F HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:32:20] "GET /get?msg=What%20steps%20should%20I%20take%20after%20being%20cyberbullied HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:34:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:34:56] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:36:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:36:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:36:28] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:36:50] "GET /get?msg=How%20do%20I%20get%20a%20divorce%20if%20I%20am%20a%20Muslim%3F HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:37:13] "GET /get?msg=What%20is%20a%20normal%20track%3F HTTP/1.1" 200 -
+WARNING:root:Collection langchain already exists, Do you have the right embedding function?
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:37:48] "GET /get?msg=what%20other%20tracks%20are%20there%3F HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:52:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:52:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:52:14] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:53:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:53:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:53:11] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
