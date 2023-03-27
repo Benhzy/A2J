@@ -15,10 +15,10 @@
 
       <div class="col-2 sidebar">
         <h3 id="sidebar title">EasyLaw</h3>
-          <btn class="btn" id="new-chat">New Chat</btn>
-          <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
-            <li class="nav-link">Chat 1</li>
-        </ul>
+        <btn class="btn" id="new-chat" onclick="blankChat()">New Chat</btn>
+        <!-- <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
+          <li class="nav-link">Chat 1</li>
+        </ul> -->
       </div>
 
       <div class="col main-chat-area">
@@ -70,23 +70,31 @@
       }
     });
 
-    const createChat = document.querySelector('#new-chat');
-    var chatMsgID = 1;
+    // const createChat = document.querySelector('#new-chat');
+    // var chatMsgID = 1;
 
-    function addChat() {
-      var ul = document.getElementById('chat-list');
-      var li = document.createElement('li');
-      chatMsgID++;
-      var sibs = ul.children;
-      for(let sib of sibs) {
-        sib.classList.remove('active')
-        }
-      li.appendChild(document.createTextNode('Chat '+chatMsgID));
-      li.classList.add('nav-link');
-      li.classList.add('active');
-      ul.append(li);
+    // function addChat() {
+    //   var ul = document.getElementById('chat-list');
+    //   var li = document.createElement('li');
+    //   chatMsgID++;
+    //   var sibs = ul.children;
+    //   for(let sib of sibs) {
+    //     sib.classList.remove('active')
+    //     }
+    //   li.appendChild(document.createTextNode('Chat '+chatMsgID));
+    //   li.classList.add('nav-link');
+    //   li.classList.add('active');
+    //   ul.append(li);
+    // }
+    // createChat.addEventListener('click',addChat);
+
+    function blankChat(){
+      var chat = document.getElementById('chatbox')
+      chat.innerHTML = ""
+      chat.innerHTML = `<p class="botText shadow-lg">
+              <span>Welcome! How can EasyLaw help you?</span>
+            </p>`
     }
-    createChat.addEventListener('click',addChat);
   </script>
 </body>
 </html>
