@@ -13,19 +13,31 @@
   <div class="container-fluid">
     <div class="row">
 
-      <div class="col-2 sidebar">
+      <div class="col-lg-2 col-sm-4 sidebar">
         <h3 id="sidebar title">EasyLaw</h3>
-        <btn class="btn" id="new-chat" onclick="blankChat()">New Chat</btn>
+        <button class="btn mb-2" id="newChat" onclick="blankChat()">New Chat</button>
         <!-- <ul class="nav nav-pills flex-column mb-auto" id="chat-list">
           <li class="nav-link">Chat 1</li>
         </ul> -->
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="changeLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Change Language
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" onclick="changeLanguage('en')">English</a>
+            <a class="dropdown-item" onclick="changeLanguage('cn')">Chinese</a>
+            <a class="dropdown-item" onclick="changeLanguage('bm')">Bahasa Melayu</a>
+            <a class="dropdown-item" onclick="changeLanguage('tl')">Tamil</a>
+          </div>
+        </div>
+        <!-- <button class="btn" id="" onclick="changeLanguage('cn')">Switch Language</button> -->
       </div>
 
-      <div class="col main-chat-area">
+      <div class="col-lg-10 col-sm-8 main-chat-area">
 
         <div class="row chat-area">
           <div id="chatbox"> 
-            <p class="botText shadow-lg">
+            <p class="botText shadow-lg" id="welcomeMsg">
               <span>Welcome! How can EasyLaw help you?</span>
             </p>
           </div>
@@ -33,11 +45,14 @@
 
         <div class="row text-area">
           <div class="row" id="userInput">
-            <div class="col-11 h-75">
+            <div class="col-10 h-75">
               <input id="textInput" type="text" name="msg" placeholder="Message" />
             </div>
-            <div class="col h-75">
-              <button id="record-btn" class="bi bi-mic-fill button"></button>
+            <div class="col-1">
+              <button class="button" id="record-btn"><i class="bi bi-mic-fill"></i></button>
+            </div>
+            <div class="col-1">
+              <button class="button" id="send-btn" onclick="getBotResponse()"><i class="bi bi-send"></i></button>
             </div>
           </div> 
         </div>
@@ -89,11 +104,64 @@
     // createChat.addEventListener('click',addChat);
 
     function blankChat(){
-      var chat = document.getElementById('chatbox')
-      chat.innerHTML = ""
-      chat.innerHTML = `<p class="botText shadow-lg">
-              <span>Welcome! How can EasyLaw help you?</span>
-            </p>`
+      // var chat = document.getElementById('chatbox')
+      // chat.innerHTML = ""
+      // chat.innerHTML = `<p class="botText shadow-lg">
+      //         <span>Welcome! How can EasyLaw help you?</span>
+      //       </p>`
+      location.reload();
+    }
+
+    function changeLanguage(lang){
+      location.hash = lang;
+      location.reload();
+    }
+
+    var language = {
+      en: {
+        welcome: "Welcome! How can EasyLaw help you?",
+        newchat: "New Chat",
+        changelang: 'Change Language'
+      },
+      cn: {
+        welcome: '欢迎!EasyLaw如何帮您呢?',
+        newchat: '重新发问',
+        changelang: '更换语言'
+      },
+      bm: {
+        welcome: 'Selamat datang! Bagaimanakah EasyLaw boleh membantu anda?',
+        newchat: 'Sembang baharu',
+        changelang: 'Tukar bahasa'
+      },
+      tl: {
+        welcome: 'வரவேற்பு! EasyLaw உங்களுக்கு எப்படி உதவும்?',
+        newchat: 'புதிய அரட்டை',
+        changelang: 'மொழியை மாற்றவும்'
+      }
+    };
+
+    if (window.location.hash) {
+  
+      if (window.location.hash == "#en") {
+        welcomeMsg.textContent = language.en.welcome;
+        newChat.textContent = language.en.newchat;
+        changeLang.textContent = language.en.changelang;
+      }
+      else if (window.location.hash == "#cn") {
+        welcomeMsg.textContent = language.cn.welcome;
+        newChat.textContent = language.cn.newchat;
+        changeLang.textContent = language.cn.changelang;
+      }
+      else if (window.location.hash == "#bm") {
+        welcomeMsg.textContent = language.bm.welcome;
+        newChat.textContent = language.bm.newchat;
+        changeLang.textContent = language.bm.changelang;
+      }
+      else if (window.location.hash == "#tl") {
+        welcomeMsg.textContent = language.tl.welcome;
+        newChat.textContent = language.tl.newchat;
+        changeLang.textContent = language.tl.changelang;
+      }
     }
   </script>
 </body>
