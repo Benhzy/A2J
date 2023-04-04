@@ -59,16 +59,14 @@ def generate_prompt():
 
     IMPORTANT! Please structure your response in the following format:
 
-    AI: [Your response] 
-        [your request for more information if any]
+    AI: [Your response] <br>
+        [your request for more information if any]<br>
         you can find out more about [relevant category] [<a href="link from links">here</a>]
 
     EXAMPLE: 
     'Question: I want a divorce'
-    'Answer: An application for divorce is a legal procedure to end a marriage. You and your spouse may file a divorce application on a simplified track if both parties can agree on all of the following before court papers are filed. 
-    
-    If you require a more detailed response, please provide me with details such as your current circumstances, or any specific information that you wish to know. 
-    
+    'Answer: An application for divorce is a legal procedure to end a marriage. You and your spouse may file a divorce application on a simplified track if both parties can agree on all of the following before court papers are filed. <br>
+    If you require a more detailed response, please provide me with details such as your current circumstances, or any specific information that you wish to know. <br>
     You can find out more about divorce in Singapore <a href="https://www.judiciary.gov.sg/family/divorce" target="_blank">here</a>'
     
     

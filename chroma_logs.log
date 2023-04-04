@@ -646,3 +646,7 @@ INFO:werkzeug:127.0.0.1 - - [04/Apr/2023 15:30:23] "GET /get?msg=my%20employer%2
 INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
 DEBUG:Chroma:Logger created
 DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2023 18:09:43] "GET /get?msg=How%20do%20i%20declare%20bancruptcy%3F%20&lang=not%20eng HTTP/1.1" 200 -
