@@ -510,3 +510,139 @@ INFO:werkzeug:127.0.0.1 - - [19/Mar/2023 17:53:11] "[33mGET /static/static/back
 DEBUG:Chroma:Logger created
 WARNING:root:Collection langchain already exists, Do you have the right embedding function?
 DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
+DEBUG:Chroma:Logger created
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\tenacity\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\concurrent\\futures\\_base.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\openai\\api_resources\\embedding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\openai\\api_resources\\abstract\\engine_api_resource.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\openai\\api_requestor.py', reloading
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:12:15] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:14:45] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009701251983642578
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:16:03] "GET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0005095005035400391
+INFO:werkzeug:127.0.0.1 - - [27/Mar/2023 10:16:37] "GET /get?msg=what%20is%20the%20normal%20track HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\db_creation.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\_distutils_hack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\_distutils_hack\\override.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\pip\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\pip\\__main__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\pip\\__pip-runner__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\Lib\\site-packages\\pip\\_internal\\__init__.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [29/Mar/2023 15:10:42] "GET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009989738464355469
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 21:20:41] "GET /get?msg=i%20want%20to%20sue HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 21:45:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 21:45:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 21:45:05] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 22:24:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 22:24:53] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 22:24:53] "[33mGET /static/static/background.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.1.7 - - [29/Mar/2023 22:24:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0010013580322265625
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:07:37] "GET /get?msg=how%20can%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.000997304916381836
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:23:31] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:24:53] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:26:08] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:30:06] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:34:12] "GET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:39:59] "GET /get?msg=divorce HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:41:46] "GET /get?msg=help%20me%20with%20divorce HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\AppData\\Local\\Programs\\Python\\Python310\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 09:59:36] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:00:00] "[35m[1mGET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1[0m" 500 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:01:32] "GET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:03:48] "GET /get?msg=how%20do%20i%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:13:33] "[35m[1mGET /get?msg=divorce%20 HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:14:04] "GET /get?msg=divorce HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:17:13] "GET /get?msg=How%20can%20I%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 10:19:18] "GET /get?msg=How%20can%20I%20get%20a%20divorce%3F HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0
+INFO:werkzeug:127.0.0.1 - - [31/Mar/2023 12:20:05] "GET /get?msg=i%20want%20a%20divorce HTTP/1.1" 200 -
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0010159015655517578
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2023 15:21:14] "GET /get?msg=my%20employer%20is%20not%20paying%20me%20on%20time%2C%20what%20can%20i%20do%3F&lang=not%20eng HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:time to pre process our knn query: 0.0
+DEBUG:Chroma:time to run knn query: 0.0009980201721191406
+INFO:werkzeug:127.0.0.1 - - [04/Apr/2023 15:30:23] "GET /get?msg=my%20employer%20is%20docking%20my%20pay%2C%20what%20can%20i%20do%3F&lang=not%20eng HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\Zhiyi\\Documents\\GitHub\\A2J\\app.py', reloading
+DEBUG:Chroma:Logger created
+DEBUG:Chroma:Index saved to {self._save_folder}/index.bin
