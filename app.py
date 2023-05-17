@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 from langchain.llms import OpenAI
 from langchain.docstore.document import Document
 import requests
+from waitress import serve
 from flask import Flask, redirect, url_for, render_template, request 
 from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.chains.question_answering import load_qa_chain
@@ -123,4 +124,5 @@ def get_bot_response():
     return (str(ask_bot(userText)))
 
 if __name__=='__main__':
-    app.run()
+    #app.run()
+    serve(app, host="0.0.0.0", port=80)
