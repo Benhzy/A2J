@@ -35,11 +35,14 @@ body::before {
 }
 
 #chatbox {
-    width: 100%;
-    margin-top: 25px;
-    overflow-y: auto;
-    height: 90%;
+  min-height: 200px;
+  max-height: 500px;
+  overflow-y: auto;
+  height: auto;
+  align-self: start;
 }
+
+
 
 .userText {
     color: black;
@@ -52,6 +55,15 @@ body::before {
     border-radius: 10px;
     padding: 5px 15px 5px 15px;
     box-shadow: 14px 16px 16px -14px rgba(0,0,0,0.24);
+    height: auto;
+    display: inline-block;
+    line-height: 30px;  
+    
+}
+
+.userTextWrapper {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .botText {
@@ -65,6 +77,9 @@ body::before {
     border-radius: 10px;
     padding: 5px 15px 5px 15px;
     box-shadow: -14px 16px 16px -14px rgba(0,0,0,0.24);
+    margin-top: 20px;
+    display: table;
+    line-height	: 30px;  
 }
 
 #userInput {

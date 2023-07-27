@@ -66,39 +66,50 @@
   <script>
     
 
-    function getBotResponse() {
-      var rawText = $("#textInput").val();
-      var userHtml = '<p class="userText"><span>' + rawText + "</span></p>";
-      $("#textInput").val("");
-      $("#chatbox").append(userHtml);
+function getBotResponse() {
+  var rawText = $("#textInput").val();
+  var userHtml = '<div class="userTextWrapper"><p class="userText"><span>' + rawText + "</span></p></div>";
+  $("#textInput").val("");
+  $("#chatbox").append(userHtml);
+  document
+    .getElementById("userInput")
+    .scrollIntoView({ block: "start", behavior: "smooth" });
+  
+  var loadingHtml = '<p class="botText"><span>...</span></p>';
+  var loadingMessage = $(loadingHtml);
+  $("#chatbox").append(loadingMessage);
+
+  if (window.location.hash != 'en') {
+    $.get("/get", { msg: rawText , lang: 'not eng' }).done(function(data) {
+      loadingMessage.remove();
+      var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+      $("#chatbox").append(botHtml);
       document
         .getElementById("userInput")
         .scrollIntoView({ block: "start", behavior: "smooth" });
-      
-      if (window.location.hash != 'en') {
-        $.get("/get", { msg: rawText , lang: 'not eng' }).done(function(data) {
-        var botHtml = '<p class="botText"><span>' + data + "</span></p>";
-        $("#chatbox").append(botHtml);
-        document
-          .getElementById("userInput")
-          .scrollIntoView({ block: "start", behavior: "smooth" });
-      });
-      } else
-      {$.get("/get", { msg: rawText }).done(function(data) {
-        var botHtml = '<p class="botText"><span>' + data + "</span></p>";
-        $("#chatbox").append(botHtml);
-        document
-          .getElementById("userInput")
-          .scrollIntoView({ block: "start", behavior: "smooth" });
-      });
-      }
-    }
+    });
+  } else {
+    $.get("/get", { msg: rawText }).done(function(data) {
+      loadingMessage.remove();
+      var botHtml = '<p class="botText"><span>' + data + "</span></p>";
+      $("#chatbox").append(botHtml);
+      document
+        .getElementById("userInput")
+        .scrollIntoView({ block: "start", behavior: "smooth" });
+    });
+  }
+}
 
-    $("#textInput").keypress(function(e) {
+
+	$("#textInput").keypress(function(e) {
       if (e.which == 13) {
         getBotResponse();
       }
     });
+
+	
+
+
 
     // const createChat = document.querySelector('#new-chat');
     // var chatMsgID = 1;
