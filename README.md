@@ -2,6 +2,7 @@
 
 ## Introduction
 This is an OpenAI GPT3.5-Turbo based LLM chatbot that uses data scrapped from https://www.judiciary.gov.sg to answer a user's query using Retrieval Augmented Generation (RAG).
+
 For this project, Langchain's Question Answer Chain was used, with conversational buffer memory to simulate a continuous convosation. (Note: langchain code used is currently not supported)
 ChromaDB is used to create a vector database encoded using OpenAI's embedding vector model.
 
@@ -82,4 +83,4 @@ A version of this application was hosted on AWS EC2, under the domain name https
    sudo kill -9 <process_id>
    ```
 
-You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
